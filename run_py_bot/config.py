@@ -13,7 +13,7 @@ with open('messages/code.txt') as f:
     CODE_INFO = f.read()
 
 
-API_TOKEN = 'AIzaSyAk5Tc4KVNb6S-aTopz3kU-JJSYlXvFUW0'
+API_TOKEN = "AIzaSyAk5Tc4KVNb6S-aTopz3kU-JJSYlXvFUW0"
 assert API_TOKEN
 
 HEROKU_APP_NAME = os.getenv('HEROKU_APP_NAME')
